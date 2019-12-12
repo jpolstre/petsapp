@@ -1,12 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import { create } from 'domain'
 
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes: [
     {
@@ -39,8 +38,7 @@ export default new Router({
       // option is edit o create
       path: '/:type/:option/:id?',
       name: 'Pet',
-      component: () =>
-        import(/* webpackChunkName: "about" */ './views/Pet.vue')
+      component: () => import(/* webpackChunkName: "about" */ './views/Pet.vue')
     }
   ]
 })

@@ -29,7 +29,7 @@
     </div>
     <section class="dogs mt-10">
       <div class="container">
-        <h1 class="text-3xl font-semibold">Dogos</h1>
+        <h1 class="text-3xl font-semibold">Dogs</h1>
         <p
           class="subpixel-antialiased"
         >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima esse deserunt maiores beatae repellendus expedita iusto eos? Corrupti excepturi deleniti nostrum, harum consequatur eligendi incidunt delectus, tempora fugit, quo magni.</p>

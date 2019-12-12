@@ -1,13 +1,17 @@
 {
   "name": "petsapp",
   "version": "0.1.0",
+  "homepage": "https://jpolstre.github.io/petsapp",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@gfx/zopfli": "^1.0.14",
     "core-js": "^2.6.5",
     "tailwindcss": "^1.1.2",
     "vue": "^2.6.10",
@@ -20,8 +24,11 @@
     "@vue/cli-service": "^3.11.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
+    "brotli-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^3.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
