@@ -17,7 +17,8 @@
           <router-link class="hover:text-gray-100" to="/">Inicio &#124;&nbsp;</router-link>
           <router-link class="hover:text-gray-100" to="/dogs">Dogs &#124;&nbsp;</router-link>
 
-          <router-link class="hover:text-gray-100" to="/cats">Cats </router-link>
+          <router-link class="hover:text-gray-100" to="/cats">Cats &#124;&nbsp;</router-link>
+          <!-- <router-link class="hover:text-gray-100" to="/dates">Dates </router-link> -->
         </div>
         <div class="block lg:hidden noselect" @click="drawer=!drawer">
           <!-- <svg
@@ -53,6 +54,10 @@
         class="hover:text-gray-100 hover:bg-primary-300 hover:text-white py-4 w-1/2 rounded"
         to="/dogs"
       >Dogs</router-link>
+      <!-- <router-link
+        class="hover:text-gray-100 hover:bg-primary-300 hover:text-white py-4 w-1/2 rounded"
+        to="/dates"
+      >Dates</router-link> -->
  
     </div>
 

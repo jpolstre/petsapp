@@ -40,6 +40,12 @@ const routes = [
       import(/* webpackChunkName: "about" */ '../views/DogsCmp.vue')
   },
   // {
+  //   path: '/dates',
+  //   name: 'Dates',
+  //   component: () =>
+  //     import(/* webpackChunkName: "about" */ '../views/LastDate.vue')
+  // },
+  // {
   //   path: '/pets',
   //   name: 'Pets',
   //   component: () =>
